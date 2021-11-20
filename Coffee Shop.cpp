@@ -203,7 +203,7 @@ int main() {
 		cin >> tipAmt;
 		orderTotal += tipAmt;
 		cout << "\nPlease pay: $" << fixed << setprecision(2) << orderTotal << endl;
-		cout << "\nThank you for eating at Coffee Shop!";
+		cout << "\nThank you for eating at Coffee Shop!" << endl;
 	}
 	else {
 		cout << "\nThank you for checking out the Coffee Shop!" << endl;
